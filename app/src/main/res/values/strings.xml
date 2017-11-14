@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">预约助手</string>
+
+    <!-- sweet-alert-dialog相关 -->
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="setting_worker_phone_text">设置工作人员联系方式：</string>
+    <string name="wifi_reminder">当前处于非WIFI网络环境，如果继续下载可能会产生高额流量费，继续下载吗？</string>
+    <string name="please_enter_info">请输入工作人员信息</string>
+    <string name="account">账号</string>
+    <string name="pwd">密码</string>
+    <string name="login">登 录</string>
+    <string name="no_data">没有数据</string>
+    <string name="search">查询</string>
+    <string name="end_time">结束日期</string>
+    <string name="start_time">开始日期</string>
+
+
+    <string name="exception">异常</string>
+    <string name="non_right">抱歉，没有权限</string>
+    <string name="server_error">服务器错误</string>
+    <string name="full_apply">该日司法所会见已满</string>
+    <string name="applied">已申请过该日，请勿重复申请</string>
+    <string name="apply_failed">申请失败，请稍后再试</string>
+    <string name="code_404">404</string>
+    <string name="code_500">500</string>
+    <string name="code_302">302</string>
+    <string name="code_400">400</string>
+    <string name="code_401">401</string>
+
+    <string name="device_not_register">该设备未授权</string>
+    <string name="account_pwd_error">用户名或密码错误</string>
+    <string name="login_failed">登录失败，请稍后再试！</string>
+    <string name="account_pwd_empty">用户名或密码为空</string>
+    <string name="pwd_less_6">密码不能少于六位</string>
+    <string name="old_pwd">原密码</string>
+    <string name="new_pwd">新密码</string>
+    <string name="confirm_new_pwd">确认新密码</string>
+    <string name="confirm">确 定</string>
+    <string name="v_1_0">V 1.0</string>
+    <string name="company_name">国科政信（北京）股份有限公司</string>
+    <string name="copyright">copyright©2006-2015.All right reserved</string>
+    <string name="input_phone">请输入手机号码</string>
+    <string name="name">姓名</string>
+    <string name="id_ex">身份证：xxxxxxxxxxxxxxxxxx</string>
+    <string name="name_ex">姓 名：</string>
+    <string name="input_name">请输入姓名</string>
+    <string name="id_num">身份证号：</string>
+    <string name="input_id">请输入身份证号</string>
+    <string name="phone_num">电话号码：</string>
+    <string name="input_phone_num">请输入电话号码</string>
+    <string name="input_info">请填写相关信息</string>
+    <string name="name_no">姓名：</string>
+    <string name="added">已添加:</string>
+    <string name="apply_date">申请探监日期：</string>
+    <string name="apply">申 请</string>
+    <string name="system_notification">系统通知</string>
+    <string name="date_ex">2016-10-08 11:29</string>
+    <string name="confirm_exit">确定退出当前账号？</string>
+    <string name="cancel">取消</string>
+    <string name="confirm_non">确定</string>
+    <string name="xxx">xxx</string>
+    <string name="xxxxxxxxxxxxxx">xxxxxxxxxxxxxx</string>
+    <string name="xxxxxxxxx">xxxxxxxxx</string>
+    <string name="apply_date_">申请日期：</string>
+    <string name="_1970_01_01">1970-01-01</string>
+    <string name="status">状态：</string>
+    <string name="unknown">未知</string>
+    <string name="meeting_date">会见时间：</string>
+    <string name="soft_agreement">《狱务通软件使用协议》</string>
+    <string name="update_pwd">修改密码</string>
+    <string name="clear_msg">清空系统消息</string>
+    <string name="check_update">检查更新</string>
+    <string name="logout">注销</string>
+    <string name="setting_compare_value">修改人证匹配值</string>
+
+
+
+    <string name="compare_result_colon">对比结果：</string>
+    <string name="compare_successed">人证验证通过</string>
+    <string name="compare_failed">人证验证不通过</string>
+    <string name="similarity_degree">相似度</string>
+    <string name="visit_name">姓名</string>
+    <string name="visit_time">来访时间</string>
+    <string name="visit_record">来访记录</string>
+    <string name="clear">清空</string>
+    <string name="verify_success">验证通过</string>
+    <string name="verify_failed">点击重拍</string>
+    <string name="retake_photo">重拍</string>
+    <string name="power_pass">授权通过</string>
+    <string name="has_not_record">暂无访来访记录</string>
+    <string name="device_identifier">设备唯一标识码：</string>
+</resources>

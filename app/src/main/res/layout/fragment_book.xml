@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/input_info"
+                android:textSize="@dimen/note_text_size"
+                android:textColor="@color/theme"
+                android:id="@+id/textView"/>
+
+            <ImageView
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:divider="@drawable/divider"
+            android:showDividers="middle|end">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/book_item_height"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_no"
+                    android:textSize="@dimen/book_main_text_size"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/tv_mid"/>
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="100dp"
+                    android:textColor="@color/tv_bg"
+                    android:textSize="@dimen/book_main_text_size"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:layout_centerVertical="true"
+                    android:hint="@string/input_name"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/book_item_height">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/id_num"
+                    android:textSize="@dimen/book_main_text_size"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/tv_mid"/>
+
+                <EditText
+                    android:id="@+id/et_ic_card_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="100dp"
+                    android:textColor="@color/tv_bg"
+                    android:textSize="@dimen/book_main_text_size"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:background="@null"
+                    android:hint="@string/input_id"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/book_item_height">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone_num"
+                    android:textSize="@dimen/book_main_text_size"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/tv_mid"/>
+
+                <EditText
+                    android:id="@+id/et_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="100dp"
+                    android:textColor="@color/tv_bg"
+                    android:textSize="@dimen/book_main_text_size"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:background="@null"
+                    android:hint="@string/input_phone_num"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_added"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="@string/added"
+                    android:textColor="@color/theme"
+                    android:textSize="@dimen/note_text_size"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/book_item_height"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/apply_date"
+                    android:textSize="@dimen/book_main_text_size"
+                    android:textColor="@color/tv_mid"
+                    android:layout_marginTop="10dp"/>
+
+                <Spinner
+                    android:id="@+id/sp_date"
+                    android:layout_width="@dimen/book_date_width"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/tv_bg"
+                    android:textSize="@dimen/book_main_text_size"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_remote_meeting"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/book_item_height"
+            android:text="@string/apply"
+            android:textColor="@color/white"
+            android:textSize="@dimen/book_main_text_size"
+            android:background="@drawable/theme_bg_bt_selector"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,30 @@
+<resources>
+    <dimen name="meeting_padding">120dp</dimen>
+    <dimen name="shidi_padding">50dp</dimen>
+    <dimen name="can_meeting_nums">35dp</dimen>
+    <dimen name="last_meeting_time">20sp</dimen>
+    <dimen name="meeting_info_tv_size">20sp</dimen>
+    <dimen name="replay_bt_size">20sp</dimen>
+    <dimen name="tv_cancel_size">18sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="main_tab_height">60dp</dimen>
+    <dimen name="agreement_tv_space">5dp</dimen>
+    <dimen name="agreement_tv_size">14sp</dimen>
+
+    <!-- sweet-alert-dialog相关 -->
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+    <dimen name="title_text_size">20sp</dimen>
+    <dimen name="back_width_height">20dp</dimen>
+    <dimen name="back_left_margin">10dp</dimen>
+    <dimen name="note_text_size">14sp</dimen>
+    <dimen name="book_item_height">40dp</dimen>
+    <dimen name="book_main_text_size">18sp</dimen>
+    <dimen name="book_date_width">150dp</dimen>
+    <dimen name="search_item_height">40dp</dimen>
+    <dimen name="search_main_text_size">18sp</dimen>
+    <dimen name="search_small_text">16sp</dimen>
+    <dimen name="search_padding">10dp</dimen>
+    <dimen name="input_height">48dp</dimen>
+</resources>

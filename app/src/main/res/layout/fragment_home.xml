@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_home_opt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:tabIndicatorColor="@color/theme"
+        app:tabIndicatorHeight="3dp"
+        app:tabBackground="@color/white"
+        app:tabSelectedTextColor="@color/theme"
+        app:tabTextColor="@color/tv_mid"
+        app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+        app:tabGravity="fill"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/et_hint"
+        android:layout_below="@id/tl_home_opt"/>
+
+    <com.gkzxhn.xjyyzs.view.NoScrollerViewPager
+        android:id="@+id/vp_home_opt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="true"
+        android:layout_below="@id/view"/>
+</RelativeLayout>

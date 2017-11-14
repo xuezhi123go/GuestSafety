@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="@color/et_hint"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/ll_apply_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/tv_mid"
+                    android:textSize="@dimen/search_main_text_size"
+                    android:text="@string/name_no"/>
+
+                <TextView
+                    android:id="@+id/tv_apply_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/tv_mid"
+                    android:textSize="@dimen/search_main_text_size"
+                    android:text="@string/xxx"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_ic_card_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/tv_mid"
+                    android:textSize="@dimen/search_main_text_size"
+                    android:text="@string/id_num"/>
+
+                <TextView
+                    android:id="@+id/tv_id_card_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/tv_mid"
+                    android:textSize="@dimen/search_main_text_size"
+                    android:text="@string/xxxxxxxxxxxxxx"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/tv_mid"
+                    android:textSize="@dimen/search_main_text_size"
+                    android:text="@string/phone_num"/>
+
+                <TextView
+                    android:id="@+id/tv_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/tv_mid"
+                    android:textSize="@dimen/search_main_text_size"
+                    android:text="@string/xxxxxxxxx"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_apply_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/tv_mid"
+                    android:textSize="@dimen/search_main_text_size"
+                    android:text="@string/apply_date_"/>
+
+                <TextView
+                    android:id="@+id/tv_apply_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/tv_mid"
+                    android:textSize="@dimen/search_main_text_size"
+                    android:text="@string/_1970_01_01"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_apply_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/tv_mid"
+                    android:textSize="@dimen/search_main_text_size"
+                    android:text="@string/status"/>
+
+                <TextView
+                    android:id="@+id/tv_apply_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/tv_mid"
+                    android:textSize="@dimen/search_main_text_size"
+                    android:text="@string/unknown"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_meeting_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/tv_mid"
+                    android:textSize="@dimen/search_main_text_size"
+                    android:text="@string/meeting_date"/>
+
+                <TextView
+                    android:id="@+id/tv_meeting_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/tv_mid"
+                    android:textSize="@dimen/search_main_text_size"
+                    android:text="@string/_1970_01_01"/>
+            </LinearLayout>
+        </LinearLayout>
+</android.support.v7.widget.CardView>

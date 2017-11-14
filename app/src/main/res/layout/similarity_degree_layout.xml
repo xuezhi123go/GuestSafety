@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="15dip"
+    android:background="@drawable/cus_dialog_shape"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_compare_value"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        />
+    <SeekBar
+        android:id="@+id/similarity_degree_layout_seekBar"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dip"
+        android:max="100"
+        android:progress="30"
+        android:layout_height="wrap_content" />
+   <TextView
+       android:id="@+id/similarity_degree_layout_tv_value"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:layout_marginTop="15dip"
+       android:text="30"
+       android:layout_marginRight="10dip"
+       android:textColor="@color/tv_mid"
+       />
+    <View android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginBottom="10dip"
+        android:background="@color/gray_btn_bg_color"
+        />
+    <Button
+        android:id="@+id/similarity_degree_layout_tv_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/confirm"
+        android:padding="10dip"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/degree_btn_color"
+        android:textSize="20sp"
+        android:textColor="@color/blue_btn_bg_color"
+        />
+</LinearLayout>

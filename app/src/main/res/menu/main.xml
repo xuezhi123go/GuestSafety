@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+        <!--android:id="@+id/setting_compare_value"-->
+        <!--android:title="@string/setting_compare_value"-->
+        <!--app:showAsAction="never"/>-->
+    <item
+        android:id="@+id/change_pwd"
+        android:title="@string/update_pwd"
+        app:showAsAction="never"/>
+
+    <!--<item-->
+        <!--android:id="@+id/change_phone"-->
+        <!--android:title="设置手机号码"-->
+        <!--app:showAsAction="never"/>-->
+
+    <item
+        android:id="@+id/clear_msg"
+        android:title="@string/clear_msg"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/update"
+        android:title="@string/check_update"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        app:showAsAction="never"/>
+</menu>

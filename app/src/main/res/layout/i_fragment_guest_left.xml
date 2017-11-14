@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/divider"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:showDividers="middle|end">
+
+    <TextView
+        android:id="@+id/tv_id_data"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/first_bar"
+        android:gravity="center_vertical"
+        android:padding="7dp"
+        android:textColor="@android:color/white"
+        android:text="访客证件信息"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tv_id_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:paddingLeft="5dp"
+        android:text="姓名"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_id_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:paddingLeft="5dp"
+        android:text="性别"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_id_nation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:paddingLeft="5dp"
+        android:text="民族"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_id_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:paddingLeft="5dp"
+        android:text="生日"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_id_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:paddingLeft="5dp"
+        android:text="地址"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_id_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:paddingLeft="5dp"
+        android:text="身份证号"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_id_department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:paddingLeft="5dp"
+        android:text="发卡机构"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_id_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:paddingLeft="5dp"
+        android:text="有效日期"
+        android:textSize="14sp" />
+
+    />
+</LinearLayout>

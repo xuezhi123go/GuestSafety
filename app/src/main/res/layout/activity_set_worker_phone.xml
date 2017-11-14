@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_worker_phone_text"
+            android:textColor="@color/tv_mid"
+            android:textSize="@dimen/search_small_text"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/et_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/input_height"
+            android:background="@drawable/et_shape_gray"
+            android:layout_marginTop="20dp"
+            android:hint="@string/input_phone"
+            android:paddingLeft="10dp"
+            android:textSize="@dimen/search_main_text_size"
+            android:textColor="@color/tv_bg"
+            android:inputType="number"
+            android:maxLength="11"/>
+
+        <Button
+            android:id="@+id/bt_ok"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/input_height"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/theme_bg_bt_selector"
+            android:text="@string/confirm"
+            android:textSize="@dimen/search_main_text_size"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</RelativeLayout>
